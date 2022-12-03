@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c89b694d3739e4114844cd408ce4c8bc, type: 3}
+  m_Name: MochimonoListEntity
+  m_EditorClassIdentifier: 
+  mochimonoList:
+  - type: 0
+    sprite: {fileID: 21300000, guid: 780f3bc0bafb74ef781cc95463a26b10, type: 3}
+    detailSprite: {fileID: 21300000, guid: 5ec206e2e88624912a6af4ee5a29f649, type: 3}
+  - type: 1
+    sprite: {fileID: 21300000, guid: 133c63a74c65f488ca23ad0b583bb3f1, type: 3}
+    detailSprite: {fileID: 21300000, guid: 8724106e508f74f4886196030b6e19d2, type: 3}
+  - type: 2
+    sprite: {fileID: 21300000, guid: fe42ac1e25d0146b99e0904207b74886, type: 3}
+    detailSprite: {fileID: 21300000, guid: 57d7252b2f7134c91be671829ecc2987, type: 3}
