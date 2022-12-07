@@ -7,6 +7,7 @@ public class Slot : MonoBehaviour
 {
     Mochimono mochimono;
     Image image;
+    public GameObject selected;
     //[SerializeField] GameObject backgroundPanel = default;
 
     private void Awake()
@@ -58,4 +59,6 @@ public class Slot : MonoBehaviour
     // {
     //     backgroundPanel.SetActive(false);
     // }
+
+    
 }

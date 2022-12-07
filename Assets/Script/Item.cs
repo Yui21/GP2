@@ -2,12 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class Item : MonoBehaviour
 {
     [SerializeField] Mochimono.Type mochimonoType = default;
     Mochimono mochimono = default;
     [SerializeField] GameObject slot; // 対応するスロット
+
+    public GameObject selected;
 
     private void Start()
     {
@@ -38,6 +42,18 @@ public class Item : MonoBehaviour
     {
         Debug.Log(mochimonoType + "が非アクティブになった");
 
+    }
+
+    public void SelectedMochimono()
+    {
+        //スロットに画像が表示されていれば
+        // if(slot.activeSelf)
+        // {
+        //     selected.SetActive(true);
+        //     Debug.Log("クリック");
+
+        // }
+        Debug.Log("クリック");
     }
     
 }

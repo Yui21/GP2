@@ -44,7 +44,7 @@
                 {
                     "name": "ItemPickUp",
                     "type": "Button",
-                    "id": "9d2de8ce-46be-4d48-8c1a-d3d0fccc02fd",
+                    "id": "946381a2-47dd-45ab-817f-3ef0bd22d417",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -230,7 +230,7 @@
                 },
                 {
                     "name": "",
-                    "id": "b88ea11b-a2b6-487e-91e5-7e925860269e",
+                    "id": "e15700a0-c55c-4af3-a938-5293b564b254",
                     "path": "<Keyboard>/f",
                     "interactions": "",
                     "processors": "",

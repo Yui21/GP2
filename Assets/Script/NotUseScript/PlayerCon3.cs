@@ -6,15 +6,15 @@ public class PlayerCon3 : MonoBehaviour
 {
   private enum catGirlState { STAND, WALK };
 
-  private Animator animator;
-  private catGirlState state;
+  // private Animator animator;
+  // private catGirlState state;
 
-  void Start()
-  {
-    animator = GetComponent<Animator>();
-    //開始直後は「STAND」
-    state = catGirlState.STAND;
-  }
+  // void Start()
+  // {
+  //   animator = GetComponent<Animator>();
+  //   //開始直後は「STAND」
+  //   state = catGirlState.STAND;
+  // }
 
   void Update()
   {
@@ -24,21 +24,21 @@ public class PlayerCon3 : MonoBehaviour
       transform.position += transform.forward * 0.04f;
       
       //「STAND」なら
-      if (state == catGirlState.STAND) {
-        //「WALK」に変更して歩くアニメーション再生
-        state = catGirlState.WALK;
-        animator.SetBool("isWalk", true);
-      }
+      // if (state == catGirlState.STAND) {
+      //   //「WALK」に変更して歩くアニメーション再生
+      //   state = catGirlState.WALK;
+      //   animator.SetBool("isWalk", true);
+      // }
     }
     //上矢印が押されてないなら
-    else {
-      //「WALK」なら
-      if (state == catGirlState.WALK) {
-        //「STAND」に変更して停止アニメーション再生
-        state = catGirlState.STAND;
-        animator.SetBool("isWalk", false);
-      }
-    }
+    // else {
+    //   //「WALK」なら
+    //   if (state == catGirlState.WALK) {
+    //     //「STAND」に変更して停止アニメーション再生
+    //     state = catGirlState.STAND;
+    //     animator.SetBool("isWalk", false);
+    //   }
+    // }
 
     if (Input.GetKey(KeyCode.A))
         {
