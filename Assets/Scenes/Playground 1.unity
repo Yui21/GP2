@@ -2609,7 +2609,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 138ef8b6efec646f0a3fb445e8cc5058, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.055
+      value: 1.032
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 138ef8b6efec646f0a3fb445e8cc5058, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4612,7 +4612,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_EventMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 32
   m_MaxRayIntersections: 0
 --- !u!114 &1996858214
 MonoBehaviour:
