@@ -3,6 +3,7 @@
 
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
+// using UnityEngine.InputSystem;
 
 namespace Fungus
 {
@@ -86,8 +87,9 @@ namespace Fungus
 
             if (writer != null)
             {
+                //if(Keyboard.current.returnKey.isPressed)
                 if (Input.GetButtonDown(currentStandaloneInputModule.submitButton) ||
-                    (cancelEnabled && Input.GetButton(currentStandaloneInputModule.cancelButton)))
+                     (cancelEnabled && Input.GetButton(currentStandaloneInputModule.cancelButton)))
                 {
                     SetNextLineFlag();
                 }
