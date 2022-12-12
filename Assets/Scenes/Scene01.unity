@@ -320,7 +320,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 0, y: 0}
+  scrollPos: {x: 297.25, y: 124.5}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -333,7 +333,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 349538507}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 349538511}
   variables: []
   description: 
   stepPause: 0
@@ -402,7 +403,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: ......
   description: 
-  character: {fileID: 253835724}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -429,7 +430,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: ......
   description: 
-  character: {fileID: 253835724}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -456,7 +457,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "\uFF08\u58F0\u304C\u805E\u3053\u3048\u308B\u3002\u8AB0\u304B\u3092\u5FC5\u6B7B\u306B\u547C\u3076\u58F0\u2026\uFF09"
   description: 
-  character: {fileID: 253835724}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -483,7 +484,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "\uFF08\u2026\u4ECA\u306E\u2026\u4F55\u2026\uFF1F\uFF09"
   description: 
-  character: {fileID: 253835724}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -535,7 +536,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
-  storyText: "\u52A9\u3051\u3066...!\u7D75\u90A3!"
+  storyText: "\u52A9\u3051\u3066...\uFF01\u7D75\u90A3\uFF01"
   description: 
   character: {fileID: 1342539894}
   portrait: {fileID: 0}
@@ -562,7 +563,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: "\u7D75\u90A3......!"
+  storyText: "\u7D75\u90A3......\uFF01"
   description: 
   character: {fileID: 1342539894}
   portrait: {fileID: 0}
@@ -589,7 +590,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: ...!
+  storyText: "...\uFF01"
   description: 
   character: {fileID: 1342539894}
   portrait: {fileID: 0}
@@ -618,7 +619,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "\u2026\u2026\u2026"
   description: 
-  character: {fileID: 253835724}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -645,7 +646,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "\u2026\u2026\u2026"
   description: 
-  character: {fileID: 253835724}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -672,7 +673,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "\u2026\u2026\u2026"
   description: 
-  character: {fileID: 253835724}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -848,8 +849,8 @@ Camera:
   m_GameObject: {fileID: 1478228351}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.1792453, g: 0.1792453, b: 0.1792453, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
