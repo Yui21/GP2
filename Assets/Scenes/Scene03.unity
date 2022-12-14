@@ -4708,6 +4708,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1822885669}
     - target: {fileID: 974536973054196018, guid: f0140b5286a1145209b15e128f854b7a, type: 3}
+      propertyPath: selected
+      value: 
+      objectReference: {fileID: 1414870731}
+    - target: {fileID: 974536973054196018, guid: f0140b5286a1145209b15e128f854b7a, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
@@ -5218,6 +5222,10 @@ PrefabInstance:
       propertyPath: slot
       value: 
       objectReference: {fileID: 1815766592}
+    - target: {fileID: 8359365466698926027, guid: f00051d2f84cf44f594cf311a292fa96, type: 3}
+      propertyPath: selected
+      value: 
+      objectReference: {fileID: 1697858202}
     - target: {fileID: 8359365466698926027, guid: f00051d2f84cf44f594cf311a292fa96, type: 3}
       propertyPath: m_Enabled
       value: 1
