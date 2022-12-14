@@ -13,6 +13,9 @@ public class Item : MonoBehaviour
 
     public GameObject selected;
 
+    public Dialog hint; //Dialogスクリプト
+    public GameObject detail; //詳細画面に表示するアイテム
+
     private void Start()
     {
         //mochimonoTypeに応じてmochimonoを生成する
@@ -40,20 +43,26 @@ public class Item : MonoBehaviour
     //各持ち物が非アクティブになった時
     void OnDisable () 
     {
-        Debug.Log(mochimonoType + "が非アクティブになった");
+        //Debug.Log(mochimonoType + "が非アクティブになった");
 
     }
 
     public void SelectedMochimono()
     {
-        //スロットに画像が表示されていれば
-        if(slot.activeSelf)
+        //赤枠がついていればクリックしたら詳細表示されて、赤枠ないけどアイテム画像がセットされているなら赤枠つける
+        if(selected.activeSelf)
         {
-            selected.SetActive(true);
-            Debug.Log("クリック");
+            hint.OpenDialog(detail);
         }
-
-        //Debug.Log("クリック");
+        else if(slot.activeSelf)
+            {
+                GameObject[] selects = GameObject.FindGameObjectsWithTag("Selected");
+                foreach(GameObject select in selects)
+                {
+                    select.SetActive(false);
+                }
+                selected.SetActive(true);
+            }
     }
     
 }
