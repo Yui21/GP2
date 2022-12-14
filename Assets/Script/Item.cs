@@ -47,13 +47,13 @@ public class Item : MonoBehaviour
     public void SelectedMochimono()
     {
         //スロットに画像が表示されていれば
-        // if(slot.activeSelf)
-        // {
-        //     selected.SetActive(true);
-        //     Debug.Log("クリック");
+        if(slot.activeSelf)
+        {
+            selected.SetActive(true);
+            Debug.Log("クリック");
+        }
 
-        // }
-        Debug.Log("クリック");
+        //Debug.Log("クリック");
     }
     
 }
