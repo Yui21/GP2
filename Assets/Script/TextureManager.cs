@@ -9,7 +9,7 @@ public class TextureManager : MonoBehaviour
     // public Material ribe_magao;
     // public Material ribe_egao;
 
-    [SerializeField] MeshRenderer ribe_face;
+    [SerializeField] GameObject ribe_face;
     [SerializeField] Material[] ribes;
 
     float seconds;
@@ -31,12 +31,13 @@ public class TextureManager : MonoBehaviour
 
     public void toRibeEgao()
     {
-        ribe_face.material = ribes[1];
-        Debug.Log("smile");
+        var ribe_face_mat = ribe_face.GetComponent<SkinnedMeshRenderer>();
+        ribe_face_mat.material = ribes[1];
     }
 
     public void toRibeMagao()
     {
-        ribe_face.material = ribes[0];
+        var ribe_face_mat = ribe_face.GetComponent<SkinnedMeshRenderer>();
+        ribe_face_mat.material = ribes[0];
     }
 }
