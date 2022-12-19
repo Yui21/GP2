@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: "\u3048\u306A\u771F\u9854"
+  m_Name: mona_magao
   m_Shader: {fileID: 4800000, guid: 9baf30ce95c751649b14d96da3a4b4d5, type: 3}
   m_ShaderKeywords: _ _EMISSIVE_SIMPLE _OUTLINE_NML
   m_LightmapFlags: 4
@@ -64,7 +64,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: e6f655b629df1467eb898b8da348b2a4, type: 3}
+        m_Texture: {fileID: 2800000, guid: a8f54db4b41a848e0b89454135518f32, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MatCap_Sampler:
@@ -221,11 +221,11 @@ Material:
     - _utsTechnique: 0
     - _utsVersion: 2.08
     m_Colors:
-    - _1st_ShadeColor: {r: 1, g: 0.86720645, b: 0.6933962, a: 1}
-    - _2nd_ShadeColor: {r: 0.5943396, g: 0.5095847, b: 0.35604307, a: 1}
+    - _1st_ShadeColor: {r: 1, g: 0.8666667, b: 0.69411767, a: 1}
+    - _2nd_ShadeColor: {r: 0.59607846, g: 0.50980395, b: 0.35686275, a: 1}
     - _Ap_RimLightColor: {r: 1, g: 1, b: 1, a: 1}
-    - _BaseColor: {r: 1, g: 0.99037343, b: 0.9481132, a: 1}
-    - _Color: {r: 1, g: 0.99037343, b: 0.9481132, a: 1}
+    - _BaseColor: {r: 1, g: 0.99215686, b: 0.9490196, a: 1}
+    - _Color: {r: 1, g: 0.99215686, b: 0.9490196, a: 1}
     - _ColorShift: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Emissive_Color: {r: 0, g: 0, b: 0, a: 1}
