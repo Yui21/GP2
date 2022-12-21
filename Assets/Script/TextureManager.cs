@@ -5,39 +5,26 @@ using UnityEngine.UI;
 
 public class TextureManager : MonoBehaviour
 {
-    // public GameObject ribe;
-    // public Material ribe_magao;
-    // public Material ribe_egao;
+    //Elements0:真顔
+    //Elements1:笑顔
 
-    [SerializeField] GameObject ribe_face;
-    [SerializeField] Material[] ribes;
+    [SerializeField] GameObject face;
+    [SerializeField] Material[] faces;
 
-    float seconds;
+    // void Start()
+    // {
+    //     DontDestroyOnLoad(gameObject);
+    // }
 
-    void Start()
+    public void toEgao()
     {
-        DontDestroyOnLoad(gameObject);
-        //ribe_face.material = ribes[0];
+        var face_mat = face.GetComponent<SkinnedMeshRenderer>();
+        face_mat.material = faces[1];
     }
 
-    void Update()
+    public void toMagao()
     {
-        // if(seconds > 1)
-        // {
-        //     toRibeEgao();
-        // }
-              
-    }
-
-    public void toRibeEgao()
-    {
-        var ribe_face_mat = ribe_face.GetComponent<SkinnedMeshRenderer>();
-        ribe_face_mat.material = ribes[1];
-    }
-
-    public void toRibeMagao()
-    {
-        var ribe_face_mat = ribe_face.GetComponent<SkinnedMeshRenderer>();
-        ribe_face_mat.material = ribes[0];
+        var face_mat = face.GetComponent<SkinnedMeshRenderer>();
+        face_mat.material = faces[0];
     }
 }
