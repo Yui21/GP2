@@ -2,9 +2,8 @@
 // It is released for free under the MIT open source license (https://github.com/snozbot/fungus/blob/master/LICENSE)
 
 ﻿using UnityEngine;
+using UnityEditor.AssetImporters;
 using UnityEngine.EventSystems;
-//using UnityEngine.InputSystem;
-// using UnityEngine.InputSystem;
 
 namespace Fungus
 {
@@ -85,10 +84,24 @@ namespace Fungus
             {
                 currentStandaloneInputModule = EventSystem.current.GetComponent<StandaloneInputModule>();
             }
+            
+            // var current = Keyboard.current;
+
+            // // キーボード接続チェック
+            // if (current == null)
+            // {
+            //     // キーボードが接続されていないと
+            //     // Keyboard.currentがnullになる
+            //     return;
+            // }
+
+            // var mKey = current.mKey;
+
+            //Debug.Log(currentStandaloneInputModule); //null
 
             if (writer != null)
             {
-                //if (Keyboard.current.spaceKey.isPressed)
+                //if (mKey.wasPressedThisFrame)
                 if (Input.GetButtonDown(currentStandaloneInputModule.submitButton) ||
                      (cancelEnabled && Input.GetButton(currentStandaloneInputModule.cancelButton)))
                 {
