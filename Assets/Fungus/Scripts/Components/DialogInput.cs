@@ -3,6 +3,7 @@
 
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
+//using UnityEngine.InputSystem;
 // using UnityEngine.InputSystem;
 
 namespace Fungus
@@ -87,7 +88,7 @@ namespace Fungus
 
             if (writer != null)
             {
-                //if(Keyboard.current.returnKey.isPressed)
+                //if (Keyboard.current.spaceKey.isPressed)
                 if (Input.GetButtonDown(currentStandaloneInputModule.submitButton) ||
                      (cancelEnabled && Input.GetButton(currentStandaloneInputModule.cancelButton)))
                 {
