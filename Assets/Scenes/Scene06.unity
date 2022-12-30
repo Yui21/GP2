@@ -2276,6 +2276,24 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 78243aa224c5645f3b42bdad1b159b7b, type: 3}
   m_PrefabInstance: {fileID: 214421936}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1033495228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033495227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17bfa6151967449c8b9421930f19482f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  face: {fileID: 1943420578}
+  faces:
+  - {fileID: 2100000, guid: 0cf49370b3ec745eb9787c518a2ca4ed, type: 2}
+  - {fileID: 2100000, guid: c8cf937319b8e47f29eddd96ede05a42, type: 2}
+  - {fileID: 2100000, guid: 00fd3c0726ecb45d6915dad0eb676a0b, type: 2}
+  - {fileID: 2100000, guid: ae357a80d198e481580c97590a8e90f7, type: 2}
 --- !u!143 &1033495233
 CharacterController:
   m_ObjectHideFlags: 0
@@ -2762,6 +2780,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 138ef8b6efec646f0a3fb445e8cc5058, type: 3}
       propertyPath: m_Name
       value: "\u30EA\u30D8\u3099"
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 138ef8b6efec646f0a3fb445e8cc5058, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 138ef8b6efec646f0a3fb445e8cc5058, type: 3}
@@ -3284,6 +3306,9 @@ GameObject:
   - component: {fileID: 1579349000}
   - component: {fileID: 1579348999}
   - component: {fileID: 1579349005}
+  - component: {fileID: 1579349008}
+  - component: {fileID: 1579349007}
+  - component: {fileID: 1579349006}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -3318,7 +3343,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1579348988}
   selectedCommands:
-  - {fileID: 1579349005}
+  - {fileID: 1579349006}
   variables: []
   description: 
   stepPause: 0
@@ -3398,7 +3423,9 @@ MonoBehaviour:
   eventHandler: {fileID: 1579348987}
   commandList:
   - {fileID: 1579348998}
+  - {fileID: 1579349008}
   - {fileID: 1579348997}
+  - {fileID: 1579349007}
   - {fileID: 1579348996}
   - {fileID: 1579348995}
   - {fileID: 1579348994}
@@ -3414,6 +3441,7 @@ MonoBehaviour:
   - {fileID: 1579349000}
   - {fileID: 1579348999}
   - {fileID: 1579349005}
+  - {fileID: 1579349006}
   suppressAllAutoSelections: 0
 --- !u!4 &1579348989
 Transform:
@@ -3851,6 +3879,57 @@ MonoBehaviour:
   targetObject: {fileID: 533736616}
   methodName: toScene07
   delay: 3
+--- !u!114 &1579349006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1579348984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 20
+  indentLevel: 0
+  targetObject: {fileID: 1033495227}
+  methodName: toEgao
+  delay: 0
+--- !u!114 &1579349007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1579348984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 19
+  indentLevel: 0
+  targetObject: {fileID: 1033495227}
+  methodName: toMagao
+  delay: 0
+--- !u!114 &1579349008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1579348984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 18
+  indentLevel: 0
+  targetObject: {fileID: 1033495227}
+  methodName: toOdoroki
+  delay: 0
 --- !u!1 &1623877318
 GameObject:
   m_ObjectHideFlags: 0
@@ -4803,6 +4882,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1905955623}
   m_CullTransparentMesh: 1
+--- !u!1 &1943420578 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -4819223349682164798, guid: 78243aa224c5645f3b42bdad1b159b7b, type: 3}
+  m_PrefabInstance: {fileID: 214421936}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1959029147
 GameObject:
   m_ObjectHideFlags: 0
