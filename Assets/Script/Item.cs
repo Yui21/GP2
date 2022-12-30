@@ -15,6 +15,7 @@ public class Item : MonoBehaviour
 
     public Dialog hint; //Dialogスクリプト
     public GameObject detail; //詳細画面に表示するアイテム
+    //public GameObject studentCard;
 
     private void Start()
     {
