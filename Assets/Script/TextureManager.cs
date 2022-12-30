@@ -7,14 +7,17 @@ public class TextureManager : MonoBehaviour
 {
     //Elements0:真顔
     //Elements1:笑顔
+    //Elements2:驚き
+    //Elements3:悲しみ
 
     [SerializeField] GameObject face;
     [SerializeField] Material[] faces;
 
-    // void Start()
-    // {
-    //     DontDestroyOnLoad(gameObject);
-    // }
+    public void toMagao()
+    {
+        var face_mat = face.GetComponent<SkinnedMeshRenderer>();
+        face_mat.material = faces[0];
+    }
 
     public void toEgao()
     {
@@ -22,9 +25,15 @@ public class TextureManager : MonoBehaviour
         face_mat.material = faces[1];
     }
 
-    public void toMagao()
+    public void toOdoroki()
     {
         var face_mat = face.GetComponent<SkinnedMeshRenderer>();
-        face_mat.material = faces[0];
+        face_mat.material = faces[2];
+    }
+
+    public void toKanashimi()
+    {
+        var face_mat = face.GetComponent<SkinnedMeshRenderer>();
+        face_mat.material = faces[3];
     }
 }
