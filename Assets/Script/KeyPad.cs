@@ -7,7 +7,7 @@ public class KeyPad : MonoBehaviour
 {
     [SerializeField] private Text Ans;
 
-    private string Answer = "0221";
+    private string Answer = "0630";
     
     public void Number(int number)
     {
@@ -19,6 +19,7 @@ public class KeyPad : MonoBehaviour
         if(Ans.text == Answer)
         {
             Ans.text = "OK!";
+            gameObject.SetActive (false);
         }
         else
         {
