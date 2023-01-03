@@ -4683,7 +4683,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 8d099d309566e4d4fabf0a167d269e1d, type: 3}
       propertyPath: m_Name
-      value: bench_2_v_3
+      value: bench
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8d099d309566e4d4fabf0a167d269e1d, type: 3}
       propertyPath: m_RootOrder
