@@ -52373,6 +52373,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Arts
       objectReference: {fileID: 0}
+    - target: {fileID: 974536973054196023, guid: f0140b5286a1145209b15e128f854b7a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0140b5286a1145209b15e128f854b7a, type: 3}
 --- !u!1 &2114283753834967212
@@ -52597,6 +52601,10 @@ PrefabInstance:
     - target: {fileID: 5592689543483757510, guid: 058f6185a53e84711aa4131beefb1e70, type: 3}
       propertyPath: m_Name
       value: Bag
+      objectReference: {fileID: 0}
+    - target: {fileID: 5592689543483757510, guid: 058f6185a53e84711aa4131beefb1e70, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 058f6185a53e84711aa4131beefb1e70, type: 3}
@@ -52839,6 +52847,10 @@ PrefabInstance:
     - target: {fileID: 8359365466698926030, guid: f00051d2f84cf44f594cf311a292fa96, type: 3}
       propertyPath: m_Name
       value: Phone
+      objectReference: {fileID: 0}
+    - target: {fileID: 8359365466698926030, guid: f00051d2f84cf44f594cf311a292fa96, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f00051d2f84cf44f594cf311a292fa96, type: 3}
