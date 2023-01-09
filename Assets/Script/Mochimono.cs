@@ -10,7 +10,11 @@ public class Mochimono
     {
         Bag,
         Phone,
-        Arts,
+        Paints,
+        Art,
+        Jiyuuchou,
+        Syoujyou,
+        PictureBook,
     }
     
     //持ち物の種類
