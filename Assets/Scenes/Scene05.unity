@@ -16067,6 +16067,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: jiyuuchou
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 910ee2a5ae8f44faa82246aad4606a05, type: 3}
+      propertyPath: m_TagString
+      value: Item
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 910ee2a5ae8f44faa82246aad4606a05, type: 3}
 --- !u!1001 &650689051
@@ -16325,6 +16329,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4328c4eeb7c0747bb9b1e78742364a71, type: 3}
       propertyPath: m_Name
       value: picture_book
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4328c4eeb7c0747bb9b1e78742364a71, type: 3}
+      propertyPath: m_TagString
+      value: Item
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4328c4eeb7c0747bb9b1e78742364a71, type: 3}
@@ -20197,6 +20205,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d8357164aa4fc4cadae1c09838d6e03a, type: 3}
       propertyPath: m_Name
       value: art
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d8357164aa4fc4cadae1c09838d6e03a, type: 3}
+      propertyPath: m_TagString
+      value: Item
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d8357164aa4fc4cadae1c09838d6e03a, type: 3}
@@ -35324,6 +35336,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4fa42fa18338b4f4ba2fc609eb30515f, type: 3}
       propertyPath: m_Name
       value: syoujyou
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4fa42fa18338b4f4ba2fc609eb30515f, type: 3}
+      propertyPath: m_TagString
+      value: Item
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4fa42fa18338b4f4ba2fc609eb30515f, type: 3}

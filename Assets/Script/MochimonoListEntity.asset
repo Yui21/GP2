@@ -22,3 +22,6 @@ MonoBehaviour:
   - type: 2
     sprite: {fileID: 21300000, guid: fe42ac1e25d0146b99e0904207b74886, type: 3}
     detailSprite: {fileID: 21300000, guid: 57d7252b2f7134c91be671829ecc2987, type: 3}
+  - type: 2
+    sprite: {fileID: 21300000, guid: fe42ac1e25d0146b99e0904207b74886, type: 3}
+    detailSprite: {fileID: 21300000, guid: 57d7252b2f7134c91be671829ecc2987, type: 3}
