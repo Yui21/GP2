@@ -6,7 +6,8 @@ using UnityEngine.UI;
 public class UIManager : MonoBehaviour
 {
     [SerializeField] GameObject smartPhonePanel;
-    //[SerializeField] GameObject smartPhone;
+    //[SerializeField] GameObject transApp;
+    [SerializeField] GameObject home;
     //[SerializeField] GameObject smartPhoneButton;
 
     public void OpenSmartPhonePanel()
@@ -18,6 +19,17 @@ public class UIManager : MonoBehaviour
     {
         smartPhonePanel.SetActive(false);
     }
+
+    public void OpenTransApp()
+    {
+        //ホーム画面のパネルを非表示にする＝TransAppを開く
+        home.SetActive(false);
+    }
+
+    // public void CloseSmartPhonePanel()
+    // {
+    //     smartPhonePanel.SetActive(false);
+    // }
     
     
 }

@@ -9,11 +9,14 @@ public class TransApp : MonoBehaviour
     public InputField inputField;
     public Text text;
     
-    public string Input1 = "pipipi";
-    public string Answer1 = "こんにちは";
+    private string Input1 = "riropo";
+    private string Answer1 = "こんにちは";
 
-    public string Input2 = "popopo";
-    public string Answer2 = "お腹すいた";
+    private string Input2 = "repororo";
+    private string Answer2 = "はじめまして";
+
+    private string InputDG = "popopo";
+    private string AnswerDG = "お腹すいた";
  
     void Start () {
     //Componentを扱えるようにする
@@ -35,6 +38,11 @@ public class TransApp : MonoBehaviour
         else if(inputField.text == Input2)
         {
             text.text = Answer2;
+        }
+
+        else if(inputField.text == InputDG)
+        {
+            text.text = AnswerDG;
         }
     }
 }
