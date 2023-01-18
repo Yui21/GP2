@@ -1529,7 +1529,7 @@ GameObject:
   - component: {fileID: 1342539895}
   - component: {fileID: 1342539894}
   m_Layer: 0
-  m_Name: ???
+  m_Name: "\uFF1F\uFF1F\uFF1F"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1547,7 +1547,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: ???
+  nameText: "\uFF1F\uFF1F\uFF1F"
   nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits: []
