@@ -9,12 +9,23 @@ public class TransApp : MonoBehaviour
     public InputField inputField;
     public Text text;
     
+    //Scene03でモナが言う
     private string Input1 = "riropo";
     private string Answer1 = "こんにちは";
 
+    //Scene03でアイが言う
     private string Input2 = "repororo";
     private string Answer2 = "はじめまして";
 
+    //Scene05でモナが言う
+    private string Input3 = "ropoporipipara";
+    private string Answer3 = "奥の森で光る物を見たことがあるよ";
+
+    //Scene05でアイが言う
+    private string Input4 = "piripiroreperiporipipi";
+    private string Answer4 = "輝く絵本の色は絶対に消えない";
+
+    //デバッグ用
     private string InputDG = "popopo";
     private string AnswerDG = "お腹すいた";
  
