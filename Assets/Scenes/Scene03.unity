@@ -15760,6 +15760,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3899520030807063256, guid: 299e7a1cb6456cf4fa6079cf5978df9b, type: 3}
   m_PrefabInstance: {fileID: 568959052}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &570571957 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -4819223349682164798, guid: 123450227bbb14f23a67bef9202a6b0f, type: 3}
+  m_PrefabInstance: {fileID: 929565713}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &571617248
 GameObject:
   m_ObjectHideFlags: 0
@@ -16928,6 +16933,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flowchart: {fileID: 857040780}
   sendMessage: talk03Ai
+--- !u!114 &612441757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 612441752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17bfa6151967449c8b9421930f19482f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  face: {fileID: 1156996964}
+  faces:
+  - {fileID: 2100000, guid: 45843c367b42a44d8a77853326516717, type: 2}
+  - {fileID: 2100000, guid: 8afbd3469b90e43d6963716c6534ca89, type: 2}
 --- !u!1001 &613526488
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22347,6 +22368,10 @@ GameObject:
   - component: {fileID: 857040790}
   - component: {fileID: 857040789}
   - component: {fileID: 857040786}
+  - component: {fileID: 857040795}
+  - component: {fileID: 857040794}
+  - component: {fileID: 857040793}
+  - component: {fileID: 857040792}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -22450,7 +22475,9 @@ MonoBehaviour:
   commandList:
   - {fileID: 857040777}
   - {fileID: 857040776}
+  - {fileID: 857040795}
   - {fileID: 857040785}
+  - {fileID: 857040794}
   - {fileID: 857040784}
   - {fileID: 857040783}
   - {fileID: 857040782}
@@ -22468,7 +22495,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 0, y: 0}
+  scrollPos: {x: 296, y: 123}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -22480,7 +22507,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 857040779}
+  - {fileID: 857040787}
   selectedCommands: []
   variables: []
   description: 
@@ -22617,7 +22644,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &857040786
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -22669,8 +22696,10 @@ MonoBehaviour:
   commandList:
   - {fileID: 857040788}
   - {fileID: 857040790}
+  - {fileID: 857040793}
   - {fileID: 857040789}
   - {fileID: 857040786}
+  - {fileID: 857040792}
   suppressAllAutoSelections: 0
 --- !u!114 &857040788
 MonoBehaviour:
@@ -22701,7 +22730,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &857040789
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -22728,7 +22757,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &857040790
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -22755,7 +22784,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &857040791
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -22767,7 +22796,75 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 857040787}
   suppressBlockAutoSelect: 0
-  message: 
+  message: talk03Ai
+--- !u!114 &857040792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857040775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 15
+  indentLevel: 0
+  targetObject: {fileID: 612441752}
+  methodName: toMagao
+  delay: 0
+--- !u!114 &857040793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857040775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 14
+  indentLevel: 0
+  targetObject: {fileID: 612441752}
+  methodName: toEgao
+  delay: 0
+--- !u!114 &857040794
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857040775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 13
+  indentLevel: 0
+  targetObject: {fileID: 1020547352}
+  methodName: toMagao
+  delay: 0
+--- !u!114 &857040795
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857040775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 12
+  indentLevel: 0
+  targetObject: {fileID: 1020547352}
+  methodName: toEgao
+  delay: 0
 --- !u!1001 &861802112
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27533,6 +27630,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flowchart: {fileID: 857040780}
   sendMessage: talk03Mona
+--- !u!114 &1020547357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020547352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17bfa6151967449c8b9421930f19482f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  face: {fileID: 570571957}
+  faces:
+  - {fileID: 2100000, guid: 9bd88983a9529484c9cad544ff8b2ad1, type: 2}
+  - {fileID: 2100000, guid: da0056dec5df645ff97affc521c31e33, type: 2}
 --- !u!1 &1028513131
 GameObject:
   m_ObjectHideFlags: 0
@@ -31986,6 +32099,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5186735023777053022, guid: ac8efb728f1fb9b4092c4df591c827ca, type: 3}
   m_PrefabInstance: {fileID: 1155601324}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1156996964 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -4819223349682164798, guid: 1d3f20b3107214bd9b48a6829f49f832, type: 3}
+  m_PrefabInstance: {fileID: 446446254}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1161226074
 PrefabInstance:

@@ -51,6 +51,16 @@ public class TransApp : MonoBehaviour
             text.text = Answer2;
         }
 
+        else if(inputField.text == Input3)
+        {
+            text.text = Answer3;
+        }
+
+        else if(inputField.text == Input4)
+        {
+            text.text = Answer4;
+        }
+
         else if(inputField.text == InputDG)
         {
             text.text = AnswerDG;
