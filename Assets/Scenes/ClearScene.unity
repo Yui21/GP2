@@ -364,19 +364,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nowPosi: 0
---- !u!1 &993364698 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8944336655422409498, guid: f6d148d888ffbf54b9afe9936dfaec1f, type: 3}
-  m_PrefabInstance: {fileID: 1221041499}
-  m_PrefabAsset: {fileID: 0}
---- !u!81 &993364699
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 993364698}
-  m_Enabled: 1
 --- !u!1 &1104855185
 GameObject:
   m_ObjectHideFlags: 0
@@ -776,7 +763,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1554645634}
         m_TargetAssemblyTypeName: SceneManager, Assembly-CSharp
-        m_MethodName: toScene01
+        m_MethodName: toStartScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -968,7 +955,7 @@ GameObject:
   - component: {fileID: 1694164505}
   - component: {fileID: 1694164504}
   m_Layer: 5
-  m_Name: ClickToStart
+  m_Name: ClickToTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1026,7 +1013,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Click to Start
+  m_Text: Click to Top
 --- !u!222 &1694164505
 CanvasRenderer:
   m_ObjectHideFlags: 0
