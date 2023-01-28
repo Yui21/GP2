@@ -30,6 +30,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Scene08.unity
     guid: 3c9942f64167e4fa5bff68da97e9ef4a
   - enabled: 1
-    path: Assets/Scenes/ClearScene.unity
+    path: Assets/Scenes/StartScene.unity
     guid: da90b9d76f9264d20b3f232c3adc9e60
   m_configObjects: {}

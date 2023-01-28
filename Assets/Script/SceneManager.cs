@@ -5,11 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class SceneManager : MonoBehaviour
 {
+    public void toScene01()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Scene01");
+    }
     public void toScene02()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("Scene02");
     }
-
     public void toScene03()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("Scene03");
