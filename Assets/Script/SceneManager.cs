@@ -34,8 +34,8 @@ public class SceneManager : MonoBehaviour
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("Scene08");
     }
-    public void toScene09()
+    public void toClearScene()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Scene09");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("ClearScene");
     }
 }

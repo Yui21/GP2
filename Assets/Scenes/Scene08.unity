@@ -38456,7 +38456,7 @@ MonoBehaviour:
   itemId: 9
   indentLevel: 0
   targetObject: {fileID: 533736616}
-  methodName: toScene09
+  methodName: toClearScene
   delay: 0
 --- !u!1001 &1588058679
 PrefabInstance:

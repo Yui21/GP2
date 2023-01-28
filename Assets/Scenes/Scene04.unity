@@ -38967,6 +38967,8 @@ GameObject:
   - component: {fileID: 1579349015}
   - component: {fileID: 1579349032}
   - component: {fileID: 1579349033}
+  - component: {fileID: 1579349034}
+  - component: {fileID: 1579349035}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -39001,7 +39003,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1579348988}
   selectedCommands:
-  - {fileID: 1579349017}
+  - {fileID: 1579349008}
   variables: []
   description: 
   stepPause: 0
@@ -39080,6 +39082,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1579348987}
   commandList:
+  - {fileID: 1579349034}
   - {fileID: 1579349013}
   - {fileID: 1579349031}
   - {fileID: 1579349012}
@@ -39113,6 +39116,7 @@ MonoBehaviour:
   - {fileID: 1579349018}
   - {fileID: 1579348996}
   - {fileID: 1579349017}
+  - {fileID: 1579349035}
   - {fileID: 1579349033}
   - {fileID: 1579348995}
   - {fileID: 1579349016}
@@ -39640,7 +39644,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
-  storyText: "...\u30EA\u30D9\u3069\u3053\uFF1F\uFF01\uFF1F\uFF01"
+  storyText: "{size=60}...\u30EA\u30D9\u3069\u3053\uFF1F\uFF01\uFF1F\uFF01{/size}"
   description: 
   character: {fileID: 1303743165}
   portrait: {fileID: 0}
@@ -40138,6 +40142,60 @@ MonoBehaviour:
   targetObject: {fileID: 873015725}
   methodName: DeleteLibe
   delay: 0
+--- !u!114 &1579349034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1579348984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 46
+  indentLevel: 0
+  storyText: '{flash=0.6}'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1579349035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1579348984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 47
+  indentLevel: 0
+  storyText: '{flash=0.6}'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1001 &1579589875
 PrefabInstance:
   m_ObjectHideFlags: 0
