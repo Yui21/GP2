@@ -17,11 +17,11 @@ public class Item : MonoBehaviour
     public GameObject detail; //詳細画面に表示するアイテム
     //public GameObject studentCard;
 
-    private void Start()
-    {
-        //mochimonoTypeに応じてmochimonoを生成する
-        mochimono = MochimonoGenerater.instance.Spawn(mochimonoType);
-    }
+    // private void Start()
+    // {
+    //     //mochimonoTypeに応じてmochimonoを生成する
+    //     mochimono = MochimonoGenerater.instance.Spawn(mochimonoType);
+    // }
 
     [Header("アイテムが拾われた時のイベント")]
 
