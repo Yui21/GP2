@@ -37269,7 +37269,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1579348988}
   selectedCommands:
-  - {fileID: 1579349013}
+  - {fileID: 1579349035}
   variables: []
   description: 
   stepPause: 0
@@ -38410,7 +38410,7 @@ MonoBehaviour:
   delay: 0
 --- !u!114 &1579349034
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -38437,7 +38437,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1579349035
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -38449,7 +38449,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 47
   indentLevel: 0
-  storyText: '{flash=0.6}'
+  storyText: '{flash=0.8}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
